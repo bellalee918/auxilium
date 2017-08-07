@@ -79,8 +79,7 @@ div.desc {
 
 body {
     background-image: url(https://www.facebook.com/photo.php?fbid=1188076381338400&set=a.1188076451338393.1073741826.100004081480983&type=3);
-    background-repeat: repeat-y
-    repeat-x;
+    background-position: cover;
 }
 .container {
   position: relative;

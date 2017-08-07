@@ -36,10 +36,6 @@ div.cat_desc{
 img.pic{
   display:block;
   margin:auto;
-  border: 1px solid black;
-  padding: 10px;
-  width: 200px;
-  height: 200px;
 }
 
 div.store_name{
@@ -47,11 +43,6 @@ div.store_name{
   font-size: 25px;
   color:color:#000000;
   text-align: center;
-  border: 1px solid black;
-  padding: 10px;
-  width: 200px;
-  height: 200px;
-  text-align: justify;
 }
 
 div.description {
@@ -66,13 +57,8 @@ div.location{
   font-size: 20px;
   color:#000000;
   text-align: center;
-  border: 1px solid black;
-  padding: 10px;
-  width: 200px;
-  height: 200px;
-  text-align: justify;
-
 }
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -92,11 +78,6 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
-  border: 1px solid black;
-  padding: 10px;
-  width: 200px;
-  height: 200px;
-  text-align: justify;
 }
 
 body {

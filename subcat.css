@@ -56,40 +56,15 @@ div.location{
   text-decoration: none;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-body {
-    background-image: url(https://www.facebook.com/photo.php?fbid=1188076381338400&set=a.1188076451338393.1073741826.100004081480983&type=3);
-    background-position: cover;
-}
 .container {
   position: relative;
-  width: 50%;
+  width: 300px;
 }
 
 .image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 200px;
 }
 
 .overlay {
@@ -100,21 +75,37 @@ body {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0; 
+  opacity: 0;
   transition: .5s ease;
-  background-color: #c8e3f4;
+  background-color: #008CBA;
 }
 
 .container:hover .overlay {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .text {
-  color:#8a8391 ;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }

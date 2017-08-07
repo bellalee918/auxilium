@@ -44,6 +44,7 @@ div.store_name{
   font-size: 25px;
   color:color:#000000;
   text-align: center;
+  text-decoration: none;
 }
 
 div.description {
@@ -58,6 +59,7 @@ div.location{
   font-size: 20px;
   color:#000000;
   text-align: center;
+  text-decoration: none;
 }
 
 div.gallery {

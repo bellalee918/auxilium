@@ -20,8 +20,9 @@ div.cat_name {
   color:#000000;
   text-align: center;
   background-image: url("http://media.istockphoto.com/photos/white-wooden-table-texture-background-picture-id511201318?k=6&m=511201318&s=612x612&w=0&h=sjBRaDUHUPyhIorYOOzhMLdEed8Kfwr7rxCkp5O_0ZQ=");
-  background-repeat: repeat-y repeat-x;
+  background-repeat: no-repeat;
   padding: 100px;
+  background-size: cover;
 }
 
 div.cat_desc{

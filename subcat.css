@@ -77,3 +77,45 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+body {
+    background-image: url("https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20622340_1649493488458030_5504497678487335217_n.jpg?oh=a1bac944da9db45746ca9735d256496b&oe=5A29466C");
+    background-repeat: repeat-y
+    repeat-x;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0; 
+  transition: .5s ease;
+  background-color: #c8e3f4;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color:#8a8391 ;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

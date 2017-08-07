@@ -23,6 +23,7 @@ div.cat_name {
   background-repeat: no-repeat;
   padding: 100px;
   background-size: cover;
+  background-postion: center;
 }
 
 div.cat_desc{

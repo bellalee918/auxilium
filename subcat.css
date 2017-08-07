@@ -64,6 +64,7 @@ div.cat_name {
   font-family: 'Arsenal';
   font-size: 40px;
   color:#000000;
+  text-align: center;
 }
 
 div.cat_desc{

@@ -30,6 +30,7 @@ div.cat_desc{
 img.pic{
   display:block;
   margin:auto;
+  border-radius: 25px;
 }
 
 div.store_name{
@@ -77,7 +78,7 @@ div.desc {
 }
 
 body {
-    background-image: url("https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20622340_1649493488458030_5504497678487335217_n.jpg?oh=a1bac944da9db45746ca9735d256496b&oe=5A29466C");
+    background-color: white;
     background-repeat: repeat-y
     repeat-x;
 }

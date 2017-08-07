@@ -17,6 +17,7 @@ body {
 div.cat_name {
   font-family: 'Arsenal';
   font-size: 60px;
+  font-weight:bold;
   color:#000000;
   text-align: center;
   background-image: url("https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20621177_1188051224674249_3816246579723166415_n.jpg?oh=8024ed4ff341bbdfb4e0426458b07626&oe=5A388CD2");

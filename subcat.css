@@ -111,6 +111,7 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    background-color: white;
 }
 .top {
   position: relative;

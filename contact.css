@@ -3,7 +3,7 @@ form {
   text-align: center;
 }
 
-container {
+div.container {
   display: inline-block;
   text-align: center;
 }

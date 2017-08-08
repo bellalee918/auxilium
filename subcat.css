@@ -4,7 +4,7 @@ ADD TO HTML TO IMPORT FONTS; MAKE SURE YOU RENAME "SOFIA" + NAME OF STYLESHEET
 */
 
 ul.menu{
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/03/White-Background-Iphone-Pics-1.jpg); 
+  background-color: white; 
   background-position: absolute;
   padding: 5px;
   margin: none;

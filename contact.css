@@ -5,7 +5,7 @@ form {
 
 label.prompts {
    font-family: 'Arsenal';
-   font-size: 40px;
+   font-size: 20px;
    font-weight:bold;
 }
 
@@ -24,7 +24,7 @@ input[type=text], select, textarea {
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     outline: none;
     font-family: 'Arsenal';
-    font-size: 40px;
+    font-size: 20px;
     font-weight:bold;
 }
 

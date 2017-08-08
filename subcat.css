@@ -114,6 +114,7 @@ div.desc {
     text-align: center;
     background-color: white;
     font-family: 'Arsenal';
+    font-size:14px; 
 }
 .top {
   position: relative;

@@ -12,7 +12,7 @@ label.prompts {
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px;
+    padding: 12px, 20px;
     margin: 8px 0; 
     border: 3px solid #ccc; /* Gray border */
      -webkit-transition: 0.5s;

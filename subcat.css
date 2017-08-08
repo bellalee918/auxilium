@@ -6,7 +6,7 @@ ADD TO HTML TO IMPORT FONTS; MAKE SURE YOU RENAME "SOFIA" + NAME OF STYLESHEET
 ul.menu{
   background-color: white; 
   background-position: absolute;
-  padding: -5px;
+  padding: 0;
   margin: none;
 }
 

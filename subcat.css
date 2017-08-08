@@ -5,7 +5,7 @@ ADD TO HTML TO IMPORT FONTS; MAKE SURE YOU RENAME "SOFIA" + NAME OF STYLESHEET
 
 ul.menu{
   background-color: white; 
-  background-position: cover;
+  background-position: absolute;
   padding: 5px;
   margin: none;
 }
@@ -88,7 +88,7 @@ div.location{
 }
 
 .text {
-  color: black;
+  color: #c0ab84;
   font-size: 20px;
   position: absolute;
   top: 50%;

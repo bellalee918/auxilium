@@ -77,7 +77,7 @@ div.location{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #e4faef;
 }
 
 .container:hover .overlay {
@@ -122,7 +122,7 @@ div.desc {
   width: 1400px;
 }
 
-.body {
+body {
   background-image:https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20708130_1188076381338400_6783320108811645063_n.jpg?oh=5cc9239f1c51a82c80172349207ecfcb&oe=5A2AE431 ;
   background-position: cover;
 }

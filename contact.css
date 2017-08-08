@@ -3,6 +3,10 @@ form {
   text-align: center;
 }
 
+body {
+  font-name: Quicksand;
+}
+
 div.container {
   text-align: center;
 }

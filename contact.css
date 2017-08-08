@@ -11,7 +11,8 @@ form {
 }
 
 label{
-  font-family: "Arsenal";
+  font-family: "Arsenal
+  font-weight: bold;
 }
 
 div.container {

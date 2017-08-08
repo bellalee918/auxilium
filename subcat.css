@@ -122,8 +122,8 @@ div.desc {
   width: 1400px;
 }
 
-body {
+div.bg {
   background-image:url(https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20708130_1188076381338400_6783320108811645063_n.jpg?oh=5cc9239f1c51a82c80172349207ecfcb&oe=5A2AE431) ;
-  background-position: cover;
+  background-position: cover ;
 }
   

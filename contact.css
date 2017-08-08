@@ -3,6 +3,12 @@ form {
   text-align: center;
 }
 
+label.prompts {
+   font-family: 'Arsenal';
+   font-size: 40px;
+   font-weight:bold;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -17,7 +23,9 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     outline: none;
-    
+    font-family: 'Arsenal';
+    font-size: 40px;
+    font-weight:bold;
 }
 
 /*Changes border color w/ animation when clicked */

@@ -1,0 +1,73 @@
+div.form {
+  display: inline-block;
+  text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+label{
+  font-family: "Arsenal";
+  font-weight: bold;
+}
+
+div.container {
+  text-align: center;
+}
+
+label.prompts {
+   font-family: 'Arsenal';
+   font-size: 20px;
+   font-weight:bold;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px, 20px;
+    margin: 8px 0; 
+    border: 3px solid #ccc; /* Gray border */
+     -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    outline: none;
+    font-family: 'Arsenal';
+    font-size: 20px;
+    font-weight:bold;
+}
+
+/*Changes border color w/ animation when clicked */
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

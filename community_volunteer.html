@@ -2,17 +2,47 @@
 <html lang = “en-US”>
 
 <head>
-<link href="style.css" type="text/css" rel="stylesheet">
-  <title>COMMUNITY</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="subcat.css" type="text/css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Arsenal' rel='stylesheet'>
+   <link rel="icon" href="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/20525212_1648453905228655_7362857189692142870_n.jpg?oh=a34eb3a23001056cb12ab1ed612bea56&oe=59FC38B6">
+  <title>Volunteer</title>
   <meta charset=“UTF-8”>
   <meta name= “viewport” content=“width=device-width, initial-scale=1”>
 </head>
 
+ <style>
+/* unvisited link */
+a:link {
+    color: #629460;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: #629460;
+  text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #BCE784;
+  text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    color: #70a9a1;
+  text-decoration:none;
+}
+</style>
+  
 <body>
-	<ul>
- <a href="home.html">
-    <img src="https://s-media-cache-ak0.pinimg.com/originals/e7/1d/db/e71ddbac457efab3116419c89b006c7a.png" alt="Lea Logo" height="100" width="100" />
-     </a>
+  <ul class="menu">
+   <a href="home.html">
+     <img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/20525212_1648453905228655_7362857189692142870_n.jpg?oh=a34eb3a23001056cb12ab1ed612bea56&oe=59FC38B6" alt="Lea Logo" height="100" width="100" />
+   </a>
   <div class="dropdown">
        <button class="dropbtn">Community</button>
   <div class="dropdown-content">
@@ -37,32 +67,98 @@
      <a href="lifestyle_clothes.html">Clothing</a>
        </div>
      </div>
+    
+    	  <div class="dropdown">
+       <button class="dropbtn">Contact Us</button>
+  <div class="dropdown-content">
+  
+     <a href="contact.html">Contact Form</a>
+		  </div>
+	  </div>
 </ul>
 <!-- Category Name -->
-<h1>Volunteer</h1>
+<div class=cat_name>-VOLUNTEER-
+  <div class="cat_desc">
+    various charities and organizations with branches located in the Bay Area
+  </div>
+</div>
+<br>
+  
+<!-- MEDSHARE-->
+<div class="gallery">
+  <div class="container">
+    <img src="https://doublethedonation.blob.core.windows.net/images/eiGlJorvQGyl34sdS1pa_Stacked%20Logo.png"
+      alt= "MedShare" target="_blank" style="width:300px;height:180px;">
+  <div class="overlay">
+    <div class="text">
+      <a href= "http://www.medshare.org/" target="_blank">MedShare</a>
+      <hr>
+      <a href="https://goo.gl/maps/QjN7ziLqYzS2" target="_blank">2937 Alvarado St, San Leandro, CA 94577</a>
+    </div>
+  </div>
+  </div>
+  <div class="desc">
+    This humanitarian aid organization collects and distributes surplus medical supplies to over 100 countries. Bay Area volunteers 
+    can support MedShare at its Western Region Distribution Center.
+  </div>
+</div>
 
-<!-- Store Name/Logo; make sure to change alt text-->
-  <img src= https://www.riseagainsthunger.org/wp-content/uploads/2017/02/r-a-hlogo-original-optimized-resized.png
-  alt= "Rise Against Hunger">
-
-<!-- Name of store/compamy/event + Link to website -->
-  <p>
-   <a href= "http://www.riseagainsthunger.org/">Rise Against Hunger</a>
-  </p>
-
-<!-- Store Description -->
-  <p>
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas laoreet libero, vel convallis risus. Etiam sit amet quam semper, aliquam justo ut, 
-   pharetra odio. Sed porttitor risus eu euismod pulvinar. Cras nec arcu id arcu congue aliquet eu sed ex. 
-   Vestibulum consequat ultrices feugiat. In dignissim augue urna. 
-</p>
-
-<!-- Store Address -->
-<p>
-2296 Tripaldi Way
-<br/>
-Hayward, CA 94545
-</p>
-	
+<!-- ONE WARM COAT-->
+<div class="gallery">
+<div class="container">
+  <img src="https://pbs.twimg.com/profile_images/804400099766009856/yWVzL990.jpg"
+    alt= "One Warm Coat" target="_blank" style="width:200px;height:180px";">
+  <div class="overlay">
+    <div class="text">
+      <a href= "http://www.onewarmcoat.org/" target="_blank">One Warm Coat</a>
+    <hr>
+    <a href="https://www.onewarmcoat.org/donatecoats/" target="_blank">Find a drive near you!</a>    
+   </div>
+  </div>
+</div>
+ <div class="desc">
+    Just as its name describes, this organization hosts coat drive events nationwide.
+    Individuals can donate their coats at drives near their location or even start their own.
+  </div>
+ </div>
+                  
+<!-- OPEN HEART KITCHEN-->
+<div class="gallery">
+<div class="container">
+  <img src="http://www.openheartkitchen.org/wp-content/uploads/2015/02/cropped-cropped-openheartkitchen.jpg"
+    alt= "Open Heart Kitchen Logo" target="_blank" style="width:300px;height:180px;">
+  <div class="overlay">
+    <div class="text">
+      <a href= "http://www.openheartkitchen.org/" target="_blank">Open Heart Kitchen</a>
+    <hr>
+    <a href="https://goo.gl/maps/9HF7DATgGa82" target="_blank">5200 Case Ave, Pleasanton, CA</a>
+    </div>
+  </div>
+</div>
+ <div class="desc">
+    Serving the Tri-Valley area (Dublin, Pleasanton, and Livermore), Open Heart Kitchen provides healthy meals for anyone who needs them. Anyone over ten years old is 
+    welcome to volunteer for this amazing non-profit.  
+  </div>
+  </div>
+ 
+<!-- RISE AGAINST HUNGER-->
+<div class="gallery">
+<div class="container">
+  <img src= "https://www.riseagainsthunger.org/wp-content/uploads/2017/02/r-a-hlogo-original-optimized-resized.png"
+    alt= "Rise Against Hunger" target="_blank" style="width:300px;height:180px;">
+  <div class="overlay">
+    <div class="text">
+      <a href= "http://www.riseagainsthunger.org/" target="_blank">Rise Against Hunger</a>
+    <hr>
+      <a href="https://goo.gl/maps/Z9ig8VXBH4x" target="_blank">2296 Tripaldi Way	
+      Hayward, CA 94545</a>
+    </div>
+  </div>
+</div>
+ <div class="desc">
+    This international organization provides food and aid to those who need it most. Volunteers in the Bay Area can package meals and 
+    perform other tasks to do their part to end world hunger. They also serve at various locations in Dublin, Pleasanton, and Livermore.
+  </div>
+</div>
 </body>
 </html>
